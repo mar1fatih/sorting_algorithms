@@ -19,9 +19,9 @@ void swap(int *a, int *b)
  * @arr: array to be sorted
  * @n: array size
 */
-void selection_sort(int *arr, int n)
+void selection_sort(int *arr, size_t n)
 {
-	int i, j, mini;
+	size_t i, j, mini;
 
 	if (!arr || n < 2 || !(*arr))
 		return;
